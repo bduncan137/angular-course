@@ -16,7 +16,7 @@ _Structural Directives_ are directives which _change_ the structure of the DOM b
 
 There are three built-in structural directives, `NgIf`, `NgFor` and `NgSwitch`.
 
-These directives work by using the HTML5 `<ng-template>` tag. This is a new tag in HTML which is specifically designed to hold _template_ code. It can sit under the `body` element but any content inside it is not shown in the browser.
+These directives work by using the HTML5 `<template>` tag. This is a new tag in HTML which is specifically designed to hold _template_ code. It can sit under the `body` element but any content inside it is not shown in the browser.
 
 Using `ng-template` we can write an `ngIf` expression as:
 
